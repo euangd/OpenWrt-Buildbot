@@ -1,36 +1,76 @@
 # [OpenWrt-Buildbot](https://github.com/SuLingGG/OpenWrt-Buildbot)
 
 ## 项目介绍
-1. 提供绝大多数源码支持的 arm/aarch64/x86 平台设备的 OpenWrt 固件
-2. 除设备默认定义软件包外，固件内未额外集成其他软件包，确保获得纯净体验
-3. 固件每日跟随源码更新自动编译，确保获得最新体验
-4. 软件源每 2 日更新一次，源内可安装软件包达 7000+ 个
-5. 提供各大 OpenWrt 项目 / 分支的源码包 (dl) 镜像
-6. 提供全格式固件 / 文件 (ext4/squashfs/ubi/initramfs/rootfs)
-7. 对于高级用户，提供完整的固件/软件包构建工具 (imagebuilder / sdk / toolchain)
-8. 如果你想捐助此项目，请移步 [FUNDING.md](https://github.com/SuLingGG/OpenWrt-Buildbot/blob/main/FUNDING.md)
+1. OpenWrt firmware of arm/aarch64/x86 platform devices that provide the vast majority of source code support
+2. Except for the device's default defined package, no additional packages are integrated into the firmware to ensure a pure experience.
+3. Firmware is automatically compiled with source code updates every day to ensure the latest experience.
+4. The software source is updated every 2 days, and there are more than 7,000 packages that can be installed in the source.
+5. Provide source code package (dl) images of major OpenWrt projects/branches
+6. Full-format firmware / file available (ext4/squashfs/ubi/initramfs/rootfs)
+7. For advanced users, provide a complete firmware/package build tool (imagebuilder / sdk / toolchain)
+8. If you want to donate this project, please move to [FUNDING.md] (https://github.com/SuLingGG/OpenWrt-Buildbot/blob/main/FUNDING.md)
 
-## 文档
+## Documentation
 
-固件 下载安装 / 初始设置 / 软件包安装说明 等信息请看文档:
+14
+
+15
+
+Firmware Download Installation / Initial Settings / Package Installation Instructions and other information, please refer to the document:
+
+16
+
+17
 
 <https://doc.openwrt.cc/3-OpenWrt-Buildbot>
 
-## 固件预览
+18
 
-### 主界面:
+19
 
-![主界面](https://ae02.alicdn.com/kf/Hdc79e29a959146c29a53a03742cce90cX.png)
+## Firmware Preview
 
-### 内置功能:
+20
 
-![内置功能](https://ae05.alicdn.com/kf/Hc47719b39ac04438beb10143c8e99b8cx.png)
+21
 
-## 鸣谢
+### Main interface:
 
-感谢以下项目 / 厂商:
+22
 
-| Github Actions                                        | OpenWrt 源码项目                                             | OpenWrt 构建项目                                             | Action 项目                                                  | 云服务厂商                               |
+40
+
+![ Main interface] (https://ae02.alicdn.com/kf/Hdc79e29a959146c29a53a03742cce90cX.png)
+
+41
+
+42
+
+### Built-in functions:
+
+43
+
+44
+
+![ Built-in function] (https://ae05.alicdn.com/kf/Hc47719b39ac04438beb10143c8e99b8cx.png)
+
+45
+
+46
+
+## Acknowledgement
+
+47
+
+48
+
+Thank you for the following projects / manufacturers:
+
+49
+
+50
+
+| Github Actions | OpenWrt Source Project | OpenWrt Builds Projects | Action Projects | Cloud service provider |
 | ----------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------- |
 | [Github Actions](https://github.com/features/actions) | [openwrt/openwrt](https://github.com/openwrt/openwrt/)       | [openwrt/buildbot](https://git.openwrt.org/?p=buildbot.git;a=summary) | [ncipollo/release-action](https://github.com/ncipollo/release-action) | [Acloud](https://acloud.net/)            |
 |                                                       | [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)    | [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt) | [mknejp/delete-release-assets](https://github.com/mknejp/delete-release-assets) | [Cloudflare](https://www.cloudflare.com) |
