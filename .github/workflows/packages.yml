@@ -126,6 +126,11 @@ jobs:
       - name: Install Feeds
         run: |
           cd $OPENWRT_ROOT_PATH
+          mkdir -p files/lib/firmware/brcm
+          wget -P files/lib/firmware/brcm/ https://github.com/RPi-Distro/firmware-nonfree/raw/bullseye/debian/config/brcm80211/brcm/brcmfmac43436-sdio.bin
+          wget -P files/lib/firmware/brcm/ https://github.com/RPi-Distro/firmware-nonfree/raw/bullseye/debian/config/brcm80211/brcm/brcmfmac43436-sdio.txt
+          wget -P files/lib/firmware/brcm/ https://github.com/RPi-Distro/firmware-nonfree/raw/bullseye/debian/config/brcm80211/brcm/brcmfmac43436s-sdio.bin
+          wget -P files/lib/firmware/brcm/ https://github.com/RPi-Distro/firmware-nonfree/raw/bullseye/debian/config/brcm80211/brcm/brcmfmac43436s-sdio.txt
           ./scripts/feeds update -a
           ./scripts/feeds install -a
 
